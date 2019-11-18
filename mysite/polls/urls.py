@@ -12,3 +12,4 @@ urlpatterns = [
     url(r'^(?P<question_id>[0-9]+)/vote$', views.vote, name="vote"),
     #127.0.0.1:8000/polls/2/vote
 ]
+
